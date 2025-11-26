@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login{
+    width: 100%;
+    max-width: 1920px;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.cart_login{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.cart01{
+    /* border: 2px solid red; */
+    width: 488px;
+    gap: 20px;
+    padding: 36px 40px 36px 40px;
+    margin-top: 117px;
+}
+
+.cart1{
+    /* border: 2px solid red; */
+    /* margin-top: 165px; */
+    width: 407px;
+    gap: 40px;
+}
+
+.cart1_text{
+    gap: 12px;
+}
+
+.cart1_text>h4{
+    /* border: 2px solid red; */
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 112.99999999999999%;
+    margin-top: 36px;
+}
+
+.cart1_text>p{
+    width: 329px;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 16px;
+    margin-top: 12px;
+    line-height: 24px;
+    color: rgba(130, 130, 130, 1);
+}
+
+.cart1_tel{
+    gap: 8px;
+    margin-top: 40px;
+}
+
+.cart1_tel>p{
+    font-weight: 500;
+    font-style: medium;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.cart1_tel>input{
+    width: 407px;
+    border-radius: 8px;
+    border: 2px solid rgba(120, 37, 141, 1);
+    padding: 18px;
+    margin-top: 8px;
+    gap: 10px;
+}
+
+.cart1_tel>input:hover{
+    box-shadow: 1px 3px 15px 5px purple;
+    border: 1px solid grey;
+}
+
+.cart1_button>a>button{
+    width: 407px;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 18px 28px 18px 28px;
+    background-color: rgba(120, 37, 141, 1);
+    border: none;
+    color: white;
+}
+
+.cart1_button>a>button{
+    color: white;
+    text-decoration: none;
+}
+
+.cart1_button>a>button:hover{
+    background-color: rgb(61, 10, 61);
+}
+
+.cart2_cart{
+    /* border: 2px solid red; */
+    width: 408px;
+    gap: 20px;
+}
+
+.cart2_cart>button{
+    margin-top: 20px;
+    width: 407px;
+    gap: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    padding: 16px 86px 16px 86px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.pp{
+    /* border: 2px solid red; */
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.pp>i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.p>svg{
+   /* border: 2px solid red;  */
+    margin-top: 2.5px;
+}
+
+.cart2>p{
+    margin-top: 6px;
+    text-align: center;
+    color: grey;
+}
+
+.cart02{
+    width: 168px;
+    margin-left: 61px;
+    margin-top: 287px;
+    margin-bottom: 267px;
+}
+
+.cart2_cart>button:hover{
+    box-shadow: 1px 1px 1px 0px blueviolet;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.cart2>hr{
+    margin-top: 10px;
+    background-color: rgba(120, 37, 141, 1);
+}

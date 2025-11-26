@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login{
+    width: 100%;
+    max-width: 1920px;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.cart1{
+    width: 487px;
+    border-radius: 30px;
+    padding: 36px 40px 36px 40px;
+    gap: 40px;
+    display: flex;
+}
+
+.cart1_cart{
+    margin-top: 277px;
+    margin-left: 611px;
+    margin-bottom: 321px;
+}
+
+.cart1_cart>h4{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 112.99999999999999%;
+    margin-top: 8px;
+}
+
+.cart1_cart>p{
+    font-weight: 500;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(130, 130, 130, 1);
+    margin-top: 12px;
+}
+
+.cart1_cart>span{
+    font-weight: 500;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cart1_cart>.p1{
+    color: rgba(120, 37, 141, 1);
+    margin-top: 12px;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.cart1_cart>.p1:hover{
+    text-decoration: underline;
+}
+
+.cart2{
+    margin-left: 162px;
+    margin-top: 267px;
+    margin-bottom: 267px;
+}
+
+.cart1_cart2{
+    width: 361px;
+    gap: 16px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart1_cart2_cart{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 8px;
+    padding: 18px;
+    border: 1px solid grey;
+    margin-top: 40px;
+    margin-left: 36.5;
+    gap: 10px;
+    display: flex;
+}
+
+.cart1_cart2_cart:hover{
+    box-shadow: 1px 1px 15px 3px purple;
+}
+
+    .cart2_button>a>button{
+    width: 361px;
+    border-radius: 8px;
+    margin-top: 24px;
+    padding: 18px 28px 18px 28px;
+    background-color: rgba(120, 37, 141, 1);
+    color: white;
+    border: none;
+    gap: 10px;
+}
+
+.cart2_button>a>button:hover{
+    background-color: rgb(61, 10, 61);
+}
+
+.cart2_button>p{
+    text-align: center;
+    font-size: 16px;
+    font-style: medium;
+    line-height: 24px;
+    font-weight: 500;
+    margin-top: 12px;
+    padding-top: 10px;
+    object-fit: 10px;
+    gap: 12px;
+    color: rgba(120, 37, 141, 1);
+}
+
+.cart2_button>p:hover{
+    text-decoration: underline;
+}
+
+.cart2_button>a:hover{
+    text-decoration: underline;
+
+}
